@@ -8,7 +8,7 @@ from langchain_community.llms import CTransformers
 import sys
 #**Step 1: Load the PDF File from Data Path****
 
-loader = PyPDFLoader("./MohamedEsa.pdf")
+loader = PyPDFLoader("your document path here")
 documents=loader.load()
 
 
